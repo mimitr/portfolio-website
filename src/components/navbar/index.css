@@ -1,0 +1,49 @@
+.nav {
+  background: #000;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .nav {
+    transition: 0.8s all ease;
+  }
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+}
+
+.mobile-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.nav-menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+/* .nav-item {
+} */
