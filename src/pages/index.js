@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <React.Fragment>
       <Navbar handleSidebarOpen={handleSidebarOpen} sidebarOpen={sidebarOpen} />
-      {/* about me
-      works
-      contact
-      footer */}
+      <About />
+      <Work />
+      <Contact />
+      <Footer />
     </React.Fragment>
   );
 };

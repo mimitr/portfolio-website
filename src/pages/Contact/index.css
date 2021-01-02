@@ -1,0 +1,15 @@
+.contact-page-container {
+  background: rgb(250, 255, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page-container {
+    padding: 100px 0;
+  }
+}

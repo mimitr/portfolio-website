@@ -1,0 +1,15 @@
+.work-page-container {
+  background: rgb(144, 144, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .work-page-container {
+    padding: 100px 0;
+  }
+}

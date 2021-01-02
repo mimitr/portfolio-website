@@ -1,0 +1,27 @@
+.about-page-container {
+  background: rgb(253, 202, 255);
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  position: relative;
+  z-index: 1; */
+}
+
+@media screen and (max-width: 768px) {
+  .about-page-container {
+    padding: 100px 0;
+  }
+}
+
+.about-page-wrapper {
+  height: 860px;
+  width: 100%;
+
+  /* display: grid;
+  z-index: 1;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center; */
+}
