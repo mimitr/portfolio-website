@@ -6,6 +6,7 @@ import { Link as LinkScroll } from "react-scroll";
 export const NavLinks = styled(LinkScroll)`
   // color: #fff;
   display: flex;
+  
   cursor: pointer;
 
   &.active {

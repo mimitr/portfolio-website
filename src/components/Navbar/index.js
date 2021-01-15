@@ -1,18 +1,13 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import { TiArrowUpOutline } from "react-icons/ti";
 import "./index.css";
 
 import { NavLinks } from "./NavbarElements";
 import Sidebar from "../Sidebar";
 import { animateScroll as scroll } from "react-scroll";
+import logo from "../../images/logo.png"
 
 const Navbar = (props) => {
-  // const [sidebarOpen, setSidebarOpen] = useState(false);
-
-  // const handleSidebarOpen = () => {
-  //   setSidebarOpen(true);
-  // };
 
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -23,7 +18,7 @@ const Navbar = (props) => {
       <div className="nav-container">
         <div className="navbar-wrapper">
           <div className="logo" to="/" onClick={toggleHome}>
-            <TiArrowUpOutline />
+            <img className="logo-img" src={logo}/>
           </div>
           <div className="nav-menu">
             <div className="nav-item">
