@@ -1,0 +1,27 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-auto-rows: auto 1fr auto;
+  margin: 5%;
+}
+
+.project-img {
+  border: 3px solid gray;
+  grid-row: 1/4;
+}
+
+.project-img > img {
+  width: 100%;
+}
+
+.project-name {
+  border: 3px solid rgb(230, 198, 252);
+}
+
+.project-description {
+  border: 3px solid rgb(142, 179, 139);
+}
+
+.project-tech-stack {
+  border: 3px solid rgb(230, 198, 252);
+}

@@ -8,7 +8,11 @@ const About = () => {
         <div className="about-page-wrapper">
           <div className="intro-info">
             <div className="text">
-              <p>Hello, my name is mimi tran</p>
+              <p>
+                Hellu, my name is <span className="name">mimi tran</span>
+              </p>
+              <p>muah</p>
+              <p>muahhh</p>
             </div>
           </div>
         </div>
